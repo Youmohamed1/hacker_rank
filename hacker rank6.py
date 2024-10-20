@@ -1,3 +1,5 @@
-i = 1
-for i in range (5,0,-1):
-    print(str(i)*i)
+n = int(input("Number: "))
+for i in range (1,n):
+    for j in range(0,n-i):
+        print(int(i),end="")
+    print()
